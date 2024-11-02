@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+
+/* Task-1 */
+.list {
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #fff;
+  width: 440px;
+
+}
+.item {
+background-color: #f6f6fe;
+margin-bottom: 24px;
+border-radius: 8px;
+padding: 16px;
+}
+
+.block-list {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.block-name {
+font-weight: 600;
+font-size: 24px;
+line-height: 1.3;
+letter-spacing: 0.04em;
+color: #2e2f42;
+margin-bottom: 16px;
+}
+
+.block-item {
+  padding: 8px 16px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+
+/* Task-2 */
+
+.gallery {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-img {
+  
+  height: 300px;
+  width: 360px;
+  object-fit: cover;
+}
+
+/* Task-3 */
+.input_name {
+  width: 360px;
+  height: 40px;
+  outline: none;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+}
+.input_name::placeholder {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+.greeting {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+/* Task-4 */
+
+.login-form {
+  background-color: #fff;
+  display: block;
+  padding: 24px;
+  border-radius: 8px;
+  width: 408px;
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.form-input {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form-input:hover {
+outline: none;
+border: 1px solid #000;
+}
+
+.form-input:focus {
+outline: none;
+border: 1px solid #808080;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  background-color: #4e75ff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 16px;
+}
+.btn:hover {
+  background-color: #6c8cff;;
+}
+
+/* Task-5 */
+.widget {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  display: block;
+}
+
+.bg-color {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+/* Tasl-6 */
+
+.controls {
+  width: 100%;
+  height: 104px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  
+}
+
+
+.input-value {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px;
+  width: 150px;
+  outline: none;
+}
+
+.btn-create,
+.btn-destroy {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  border: none;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-destroy {
+  background-color: #ff4e4e;
+}
+.btn-destroy:hover {
+  background-color: #ff7070;;
+}
+
+.box {
+  background-color:#f6f6fe;
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 44px;
+  border-radius: 8px;
+}
